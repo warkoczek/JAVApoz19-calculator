@@ -4,10 +4,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-class SubtractionOperationConfiguration {
+public class PercentageOperationConfiguration {
 
     @Bean
-    SubtractionOperation subtractionOperation() {
-        return new SubtractionOperation();
-    }
+    PercentageOperation percentageOperation(){return new PercentageOperation();}
 }
